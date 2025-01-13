@@ -38,3 +38,40 @@ GCI -Recures -Path C:\ -ErrorAction silentlyContinue    -   this will stop displ
 Get-Variable
 Get-ExecutionPolicy -list
   - What can the script access
+
+
+
+Comparison Operators
+
+-lt       less than
+
+-le       Less than or equal to
+
+-gt       Greater than
+
+-ge       Greater than or equal to
+
+-eq       Equal to
+
+-ne       Not equal to
+
+-like     Like (uses wildcard for pattern matching)
+
+-match    A match using Regular Expressions
+
+$PsHome   -   Installation directory of Powershell
+$Home     -   Users home diretory
+
+Find if a profile is setup
+  Test-Path -Path $profile.currentUsercurrentHost
+  Test-Path -Path $profile.currentUserAllHosts
+  Test-Path -Path $profile.AllUsersAllHosts
+  Test-Path -Path $profile.AllUserscurrentHost
+
+
+5. Windows Remoting
+
+Get-PSSession
+Get-PSSessionConfiguration    -   displays permissions of pssessions
+
+Invoke-command -ComputerName      -     creates a temporary session
