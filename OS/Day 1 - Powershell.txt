@@ -36,3 +36,5 @@ GCI -Recures -Path C:\ -ErrorAction silentlyContinue    -   this will stop displ
   kind of like 2> /dev/null in linux
 
 Get-Variable
+Get-ExecutionPolicy -list
+  - What can the script access
