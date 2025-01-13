@@ -23,3 +23,13 @@ CIM (Common Information Model)
 Get-ciminstance
 	Parents to WMI (Windows Management Instrumentation)
 	get-wmiobject
+
+Powershell Scripts
+
+Loops -
+  For
+  Foreach
+  While
+  Do
+
+GCI -Recures -Path C:\ -ErrorAction silentlyContinue    -   this will stop displaying errors on whatever is being processed
