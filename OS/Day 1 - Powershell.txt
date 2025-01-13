@@ -1,0 +1,25 @@
+####    Day 1    ####
+select-object
+get-help
+get-childItem
+get-member - gives methods and properties of object/cmdlet
+
+
+(cmdlet).property
+	(get-process).Name
+		Same as select-object name
+
+Format-table
+Format-list
+
+
+(Get-Process calculator*).kill() <- directly calling method
+Stop-Process calls the Process.Kill method
+
+Pipelined variable = $_.(the pipelined variable)
+Get-Process | Select-Object Name, ID, path | Where-object {$_.ID -lt '1000'}
+
+CIM (Common Information Model)
+Get-ciminstance
+	Parents to WMI (Windows Management Instrumentation)
+	get-wmiobject
