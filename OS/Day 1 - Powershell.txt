@@ -33,3 +33,6 @@ Loops -
   Do
 
 GCI -Recures -Path C:\ -ErrorAction silentlyContinue    -   this will stop displaying errors on whatever is being processed
+  kind of like 2> /dev/null in linux
+
+Get-Variable
