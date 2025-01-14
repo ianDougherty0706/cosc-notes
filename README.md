@@ -1,4 +1,4 @@
-# cosc-notes
+<h1 style="text-align:center">cosc-notes</h1>
 Stack
   10.50.26.54
 
