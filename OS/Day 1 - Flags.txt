@@ -1,0 +1,9 @@
+Powershell Core Launches with "pwsh"
+
+View the entire help page "Get-Help <cmdlet> -Full"
+
+Update help files "Update-Help"
+
+Read a file "Get-Content"
+Count lines "Measure-Object"
+Regex matching, like grep "Select-String"

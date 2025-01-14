@@ -1,7 +1,12 @@
 # cosc-notes
-ian.w.dougherty91
-WhyDoesThisPasswordNeedToBeLong
+Stack
+  10.50.26.54
 
-https://os.cybbh.io/public/os/latest/index.html
+xfreerdp /u:student /v:10.50.26.54 /dynamic-resolution +glyph-cache +clipboard
 
-10.50.26.54
+General
+  ian.w.dougherty91
+  WhyDoesThisPasswordNeedToBeLong
+
+CTFd
+  IADO-M-25013
