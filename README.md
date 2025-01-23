@@ -9,12 +9,12 @@ BurtMacklinFBI
 
 General
 
-  ian.w.dougherty91
+  - ian.w.dougherty91
   
-  WhyDoesThisPasswordNeedToBeLong
+  - WhyDoesThisPasswordNeedToBeLong
 
 CTFd
 
-  http://10.50.23.87:8000/user
+  - http://10.50.23.87:8000/user
   
-  IADO-M-25013
+  - IADO-M-25013
