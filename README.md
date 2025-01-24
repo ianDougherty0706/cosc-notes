@@ -18,3 +18,7 @@ CTFd
   - http://10.50.23.87:8000/user
   
   - IADO-M-25013
+
+Sysinternals
+
+ - net use Z: \\live.sysinternals.com\tools
