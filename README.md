@@ -21,4 +21,4 @@ CTFd
 
 Sysinternals
 
- - net use Z: \\live.sysinternals.com\tools
+ - net use Z: \\\\live.sysinternals.com\tools
